@@ -4,6 +4,9 @@
 
 n = int(input("\nPlease enter a number :\n"))
 
+if n <= 1:
+    print("Please enter a number which is positive and above 1 atleast!")
+
 def cb(n):
     return n** 3
 
