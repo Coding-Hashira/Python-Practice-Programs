@@ -12,4 +12,4 @@ def cb(n):
 
 cube = cb(n)
 
-print("Answer: Cube of {0} is {1}".format(n, cube1))
+print("Answer: Cube of {0} is {1}".format(n, cube))
