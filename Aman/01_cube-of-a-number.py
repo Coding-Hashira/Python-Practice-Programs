@@ -4,9 +4,9 @@
 
 n = int(input("\nPlease enter a number :\n"))
 
-def cbrt(n):
+def cb(n):
     return n** 3
 
-cube1 = cbrt(n)
+cube = cb(n)
 
 print("Answer: Cube of {0} is {1}".format(n, cube1))
